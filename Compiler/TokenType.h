@@ -1,0 +1,14 @@
+#pragma once
+
+typedef enum TokenType {
+	SEPARATOR,
+	IDENTIFIER,
+	INTEGER,
+	DOUBLE,
+	STRING,
+	CHARACTER,
+	OPERATOR,
+	RESERVEDWORD,
+	CONSTANT,
+	ENDOFFILE,
+}TokenType;
